@@ -1,0 +1,76 @@
+.menu1 {
+    display: inline-block;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 3px rgba;
+    border-radius: 5%;
+    min-height: 200px;
+    min-width: 200px;  
+    background-image: url(./img/checks.jpg);
+    text-align: left;
+    font-weight: bold;
+    margin: 0 30px 0 0;
+    padding: 65px 0 0 0;
+
+}
+
+.menu2 {
+	display: inline-block;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 3px rgba;
+    border-radius: 5%;
+    min-height: 200px;
+    min-width: 200px;  
+    background-image: url(./img/checks.jpg);
+    text-align: left;
+    font-weight: bold;
+    margin: 0 30px 0 0;
+    padding: 65px 0 0 0;
+
+}
+
+.menu3 {
+	display: inline-block;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 3px rgba;
+    border-radius: 5%;
+    min-height: 200px;
+    min-width: 200px;  
+    background-image: url(./img/checks.jpg);
+    text-align: left;
+    font-weight: bold;
+    padding: 65px 0 0 0;
+}
+
+#menutop {
+	padding: 0px 0 0 270px;
+}
+
+h1 {
+	text-align: center;
+	padding: 20px 0 0 0;
+}
+
+#headline {
+		background-image: url("./img/pattern.jpg");
+		padding: 0 0 20px 0;
+}
+
+#mainmenu {
+	overflow: hidden;
+}
+
+#buttonz {
+	margin: 0 0 0 535px;
+}
+
+#cart {
+	text-align: center;
+}
+
+
+
+
+
+
+
+

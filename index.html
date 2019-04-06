@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mini Mart</title>
+	<link rel = "stylesheet" href = "./style.css">
+</head>
+<body>
+	<div id = "mainmenu">
+		<div id = "headline">
+		<h1>Du's Grocery Mart</h1>
+		<div id = "formenu">
+			<div id = "menutop">
+			<div class = "menu1">
+				<input class = "drinks" type = "radio" name = "bevs" value = "six pack"> Six Pack
+				<br>
+				<input class = "drinks" type = "radio" name = "bevs" value = "juice box"> Juice Squeeze
+				<br>
+				<input class = "drinks" type = "radio" name = "bevs" value = "La Croix"> 12 Pack La Croix
+				<br>
+				<input class = "drinks" type = "radio" name = "bevs" value = "bottled water"> 22oz Bottled Water
+				<br>
+			</div>
+			<div class = "menu2">
+				<input class = "snacks" type = "radio" name = "snax" value = "corn nuts"> Corn Nuts
+				<br>
+				<input class = "snacks" type = "radio" name = "snax" value = "chips"> Chips
+				<br>
+				<input class = "snacks" type = "radio" name = "snax" value = "donuts"> Donuts
+				<br>
+				<input class = "snacks" type = "radio" name = "snax" value = "gum"> Gum
+				<br>
+			</div>
+			<div class = "menu3">
+				<input class = "other" type = "checkbox" checked = "checked" name = "misc" value = "advil"> Advil
+				<br>
+				<input class = "other" type = "checkbox" name = "misc" value = "tums"> Tums
+				<br>
+				<input class = "other" type = "checkbox" name = "misc" value = "tissues"> Tissues
+				<br>
+				<input class = "other" type = "checkbox" name = "misc" value = "bottled water"> Cigarettes 
+				<br>
+			</div>
+			</div>
+		</div>
+		</div>
+		
+	</div>
+	<div>
+        <div id="buttonz">
+            <button id = "button" onclick = "getReceipt()" type="button">Place Order</button>
+            <button id = "button" onclick = "clearAll()" type="button">Cancel</button>
+        </div>
+    </div>
+
+    <div>
+        <div id="cart">
+            <div id="showText1"></div>
+            <div id="totalPrice"></div>
+        </div>
+    </div>
+
+</body>
+<script src = "./script.js"></script>
+</html>
